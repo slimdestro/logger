@@ -5,11 +5,11 @@
 Each apllication(web/system/lambda/etc..) will need to have a Unique category as Identifier.
  
 ## Configuration
-Just import `Helper_FlaskPOC_Custom_ErrorLogger` from this file.
+Just import `JSONAL` from this file.
 
 ```sh
     app = Flask(__name__)
-    error_logger = Helper_FlaskPOC_Custom_ErrorLogger(app)
+    error_logger = JSONAL(app)
     #call it like this in: 
     error_logger.log_erro(errorvariable)
 ```

@@ -7,7 +7,7 @@ from datetime import datetime
 from flask import request, current_app
 import inspect
 
-class Helper_FlaskPOC_Custom_ErrorLogger:
+class JSONAL:
     def __init__(self, app, log_path="error_log.json"):
         self.app = app
         self.log_path = log_path
