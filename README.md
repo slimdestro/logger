@@ -1,5 +1,4 @@
-## JSONAL
-#### Generic JSON as Log for Flask
+## Python JSOn based Logger
  
 ## Identifier
 Each apllication(web/system/lambda/etc..) will need to have a Unique category as Identifier.
